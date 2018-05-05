@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Colorz | By Christiaan Fourie</title>
+        <link rel="stylesheet" href="css/layout.css">
+        <link rel="stylesheet" href="css/customSlider.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <!-- Hue
+        ********************-->
+        <div class="hueText textBox">
+            <h3 style="color: #fff;">H <br><span class="subText">hue</span></h3>
+        </div>
+        <div class="hueValue">
+            <input type="number" max="360" min="0" value="180" on>
+        </div>
+        <div class="hueSlider slider">
+            <input type="range" max="360" min="0" value="180" class="sliderInHue">
+        </div>
+        <!--******************-->
+
+
+        <!-- Saturation
+        ********************-->
+        <div class="saturationText">
+            <h3 style="color: #fff;">S <br><span class="subText">saturation</span></h3>
+        </div>
+        <div class="saturationValue">
+            <input type="number" min="0" max="100" value="50">
+        </div>
+        <div class="saturationSlider slider">
+            <input type="range" min="0" max="100" value="50" class="sliderInSaturation">
+        </div>
+        <!--******************-->
+
+        <!-- Luminace
+        ********************-->
+        <div class="luminaceText">
+            <h3 style="color: #fff;">L <br><span class="subText">luminace</span></h3>
+        </div>
+        <div class="luminaceValue">
+            <input type="number" min="0" max="100" value="50">
+        </div>
+        <div class="luminaceSlider slider">
+            <input type="range" min="0" max="100" value="50" class="sliderInLuminace">
+        </div>
+        <!--******************-->
+
+        <!-- Red
+        ********************-->
+        <div class="redText">
+            <h3 style="color: #f00;">R <br><span class="subText">red</span></h3>
+        </div>
+        <div class="redValue">
+            <input type="number" min="0" max="255" value="64">
+        </div>
+        <div class="redSlider slider">
+            <input type="range" min="0" max="255" value="64" class="sliderInRed">
+        </div>
+        <!--******************-->
+
+        <!-- Green
+        ********************-->
+        <div class="greenText">
+            <h3 style="color: #0f0;">G <br><span class="subText">green</span></h3>
+        </div>
+        <div class="greenValue">
+            <input type="number" min="0" max="255" value="191">
+        </div>
+        <div class="greenSlider slider">
+            <input type="range" min="0" max="255" value="191" class="sliderInGreen">
+        </div>
+        <!--******************-->
+
+        <!-- Blue
+        ********************-->
+        <div class="blueText">
+            <h3 style="color: #00f;">B <br><span class="subText">blue</span></h3>
+        </div>
+        <div class="blueValue">
+            <input type="number" min="0" max="255" value="191">
+        </div>
+        <div class="blueSlider slider">
+            <input type="range" min="0" max="255" value="191" class="sliderInBlue">
+        </div>
+        <!--******************-->
+
+        <div class="colorsBox">
+
+            <input type="text" class="rgbString" value="">
+            <input type="text" class="hslString" value="">
+            <input type="text" class="rgbHexString" value="">
+        </div>
+
+
+
+        <script src="js/jquery-3.3.1.js" charset="utf-8"></script>
+        <script src="js/colorConvertions.js" charset="utf-8"></script>
+        <script src="js/update.js" charset="utf-8"></script>
+
+
+        
+    </body>
+</html>
