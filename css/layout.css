@@ -1,0 +1,94 @@
+/******************************************
+******** MAIN GRID ***********************
+*******************************************/
+body {
+    display: grid;
+    grid-template-columns: 19% 19% 24% 19% 19%;
+    grid-template-rows: 22% 11% 22% 11% 22% 11%;
+    grid-template-areas:
+    "hueText hueValue colorsBox redText redValue"
+    "hueSlider hueSlider colorsBox redSlider redSlider"
+    "saturationText saturationValue colorsBox greenText greenValue"
+    "saturationSlider saturationSlider colorsBox greenSlider greenSlider"
+    "luminaceText luminaceValue colorsBox blueText blueValue"
+    "luminaceSlider luminaceSlider colorsBox blueSlider blueSlider";
+}
+
+/*  Output Color Box
+***************/
+    .colorsBox {
+        grid-area: colorsBox;
+    }
+/* Hue
+***************/
+    .hueText {
+        grid-area: hueText;
+    }
+    .hueValue {
+        grid-area: hueValue;
+    }
+    .hueSlider {
+        grid-area: hueSlider;
+    }
+
+/*  Saturation
+****************/
+    .saturationText {
+        grid-area: saturationText;
+    }
+    .saturationValue {
+        grid-area: saturationValue;
+    }
+    .saturationSlider {
+        grid-area: saturationSlider;
+    }
+
+/*  Luminace
+********************/
+    .luminaceText {
+        grid-area: luminaceText;
+    }
+    .luminaceValue {
+        grid-area: luminaceValue;
+    }
+    .luminaceSlider {
+        grid-area: luminaceSlider;
+    }
+
+/*  Red
+********************/
+    .redText {
+        grid-area: redText;
+    }
+    .redValue {
+        grid-area: redValue;
+    }
+    .redSlider {
+        grid-area: redSlider;
+    }
+
+/*  Green
+********************/
+    .greenText {
+        grid-area: greenText;
+    }
+    .greenValue {
+        grid-area: greenValue;
+    }
+    .greenSlider {
+        grid-area: greenSlider;
+    }
+
+/*  Blue
+*********************/
+    .blueText {
+        grid-area: blueText;
+    }
+    .blueValue {
+        grid-area: blueValue;
+    }
+    .blueSlider {
+        grid-area: blueSlider;
+    }
+/**************************************
+**************************/

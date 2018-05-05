@@ -1,0 +1,70 @@
+input[type="range"]{
+  height: 15px;
+  width: 100%;
+  -webkit-appearance: none;
+  transition: all 800ms;
+  outline: none;
+  border-radius: 3px;
+}
+
+/* Firefox */
+    input[type="range"]::-moz-range-track {
+        height: 0;
+    }
+
+    input[type="range"]::-moz-range-thumb{
+      width: 2px;
+      height: 15px;
+      border-radius: 0%;
+      background: #fff;
+      border: 2px solid rgba(255,255,255,0.1);
+      transition: all 300ms;
+    }
+    input[type="range"]:focus::-moz-range-thumb{
+      border: 3px solid rgb(255,255,255);
+      transition: all 300ms;
+    }
+
+/* Opera And Chrome */
+    input[type="range"]::-webkit-slider-thumb {
+        height: 0;
+    }
+
+    input[type="range"]::-webkit-slider-thumb{
+      -webkit-appearance: none;
+      width: 2px;
+      height: 15px;
+      border-radius: 0%;
+      background: #fff;
+      border: 2px solid rgba(255,255,255,0.1);
+      transition: all 300ms;
+    }
+    input[type="range"]:focus::-webkit-slider-thumb{
+        border: 3px solid rgb(255,255,255);
+        transition: all 300ms;
+    }
+
+/* Red */
+.sliderInRed {
+  background: linear-gradient(to right, #000 , #F00);
+}
+/* Green */
+.sliderInGreen {
+  background: linear-gradient(to right, #000  , #0F0);
+}
+/* Blue */
+.sliderInBlue {
+  background: linear-gradient(to right, #000  , #00F);
+}
+/* Hue */
+.sliderInHue {
+  background: linear-gradient(to right,hsl(0,100%,50%),hsl(60,100%,50%),hsl(120,100%,50%),hsl(180,100%,50%),hsl(240,100%,50%),hsl(300,100%,50%),hsl(360,100%,50%));
+}
+/* Saturation */
+.sliderInSaturation {
+background: linear-gradient(to right, #000  , #000 );
+}
+/* Luminace */
+.sliderInLuminace {
+background: linear-gradient(to right, #000  , #000 );
+}

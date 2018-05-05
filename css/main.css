@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #222;
+    padding: 20px 20px 0px 20px;
+}
+.colorsBox {
+    margin: 10px;
+    border-radius: 10px;
+}
+h3 {
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 1.5em;
+    color: white;
+    border-right:1px solid;
+    padding-right: 12px;
+    margin-right: 12px;
+    text-align: right;
+}
+.subText{
+    font-size: 0.6em
+}
+.slider {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.rgbString:hover,
+.hslString:hover,
+.rgbHexString:hover {
+    font-size: 1em;
+    transition: font-size 250ms;
+}
+.rgbString,
+.hslString,
+.rgbHexString {
+    background-color: rgba(0,0,0,0);
+    border: none;
+    height: 30px;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 70%;
+    color: black;
+    font-weight: 600;
+    font-size: 0.8em;
+}
+input[type='number'] {
+    height: 100%;
+    width: 60px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+    font-weight: 900;
+    background: transparent;
+}
+input {
+    font-family: fantasy;
+}
