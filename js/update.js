@@ -104,8 +104,7 @@
 
             $('.colorsBox').css({
                 'background-color': rgb,
-                'box-shadow': "3px 3px 3px "+rgb,
-                'border': '1px solid white'
+                'box-shadow': "3px 3px 3px "+rgb
             });
             $('.rgbString').val(rgb)
             $('.hslString').val(hsl)
@@ -115,18 +114,12 @@
                     'color': 'black',
                     'border-bottom': '2px solid black'
                 })
-                $('.colorsBox').css(
-                    'border', '2px solid black'
-                )
             } else {
                 $('.rgbString, .hslString, .rgbHexString').css({
                     'color': 'white',
                     'border-bottom': '2px solid white'
                 })
 
-                $('.colorsBox').css(
-                    'border', '2px solid white'
-                )
             }
             $("input[type='number']").css(
                 'border','3px solid '+rgb
