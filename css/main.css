@@ -1,10 +1,15 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
+    font-weight: 100;
 }
 body {
     background-color: #222;
-    padding: 20px 20px 0px 20px;
+}
+.container {
+    padding: 30px 100px 30px 100px;
+    background: #111;
 }
 .colorsBox {
     margin: 10px;
@@ -58,4 +63,8 @@ input[type='number'] {
 }
 input {
     font-family: fantasy;
+}
+.fullWidth {
+    display: block;
+    width: 100%;
 }

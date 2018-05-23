@@ -1,0 +1,33 @@
+.directionalBox {
+    width: 10%;
+    height: 70px;
+    float: right;
+    border: 1px solid white;
+    transition: all 500ms;
+    text-align: center;
+}
+.selectedLeftColor,
+.selectedRightColor {
+    float: left;
+    padding: 30px;
+    height: 70px;
+    background-color: transparent;
+    color: white;
+}
+
+.selectedLeftColor:hover,
+.selectedRightColor:hover {
+    cursor: pointer;
+    color: #0f0f0f;
+    background: white;
+}
+
+.gradientBox {
+    width: 95%;
+    margin: 25px;
+    height: 300px;
+    border-radius: 10px;
+}
+.clearfix {
+    clear: both;
+}
